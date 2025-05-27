@@ -1,20 +1,20 @@
 [
   {
-    "name": "Free",
+    "plan": "Free",
     "max_time": 60,
-    "cooldown": 120,
-    "access": ["layer4"]
+    "cooldown": 300,
+    "concurrent": 1
   },
   {
-    "name": "VIP",
+    "plan": "VIP",
     "max_time": 600,
-    "cooldown": 0,
-    "access": ["layer4", "layer7"]
+    "cooldown": 60,
+    "concurrent": 2
   },
   {
-    "name": "OWNER",
-    "max_time": 9999999,
+    "plan": "OWNER",
+    "max_time": 99999,
     "cooldown": 0,
-    "access": ["layer4", "layer7", "admin"]
+    "concurrent": 999
   }
 ]
